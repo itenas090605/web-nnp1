@@ -259,7 +259,7 @@ body {
   background-repeat: no-repeat;
 
   /* Ukuran background: bisa atur lebar & tinggi spesifik */
-  background-size: 50% 50%; /* Atur lebar dan tinggi agar penuh */
+  background-size: 50% 75%; /* Atur lebar dan tinggi agar penuh */
 
   /* Posisi background */
   background-position: top center; /* atau: left top, right bottom, dsb */
@@ -269,10 +269,10 @@ body {
   background-clip: border-box;
 
   /* Jarak isi dari pinggir, jika perlu */
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
 
   position: relative;
 
