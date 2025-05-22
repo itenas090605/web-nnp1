@@ -251,35 +251,18 @@ body {
 
 
 
+/* Hero Section */
 .hero {
   min-height: 110vh;
   display: flex;
   align-items: center;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-
-  /* Ukuran background: bisa atur lebar & tinggi spesifik */
-  background-size: 50% 75%; /* Atur lebar dan tinggi agar penuh */
-
-  /* Posisi background */
-  background-position: top center; /* atau: left top, right bottom, dsb */
-
-  /* Tambahan kontrol */
-  background-origin: border-box;
-  background-clip: border-box;
-
-  /* Jarak isi dari pinggir, jika perlu */
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-  padding-left: 15rem;
-  padding-right: 15rem;
-
+  background-size: cover;
+  background-position: center;
   position: relative;
-
-  /* Efek gradasi transparan bawah */
   mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
 }
-
 
 /* .hero::after {
   content: "";
@@ -754,5 +737,4 @@ footer .credit a {
   html {
     font-size: 55%;
   }
-  
 }
